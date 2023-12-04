@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cintattoo | contactos</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navegador">
+            <img src="../maqui.png" alt="" class="maquina">
+            <ul>
+                <li><a href="/index.html">inicio</a></li>
+                <li><a href="/public/img/page/galeria.html">galeria</a></li>
+                <li><a href="/public/img/page/artistas.html">artistas</a></li>
+                <li><a href="/public/img/page/contactos.html">contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>contactanos que te ayudamos</h2>
+            <div id="contact">
+                <form action="contact.php" method="post">
+                    <input type="text" name="nombre" placeholder="Tu nombre">
+                    <input type="email" name="email" placeholder="Tu correo electrónico">
+                    <input type="text" name="asunto" placeholder="Asunto">
+                    <textarea name="mensaje" placeholder="Tu mensaje"></textarea>
+                    <input type="submit" value="Enviar">
+                  
+                    <p class="relato"">
+                      <input type="checkbox" name="newsletter" value="1">
+                      Quiero suscribirme a la newsletter.
+                    </p>
+                  </form>
+            </div>
+            <div class="reserva">
+                <h2>realiza tu reserva</h2>
+                <form action="reserva.php" method="post">
+                    <input type="text" name="nombre" placeholder="Tu nombre">
+                    <input type="email" name="email" placeholder="Tu correo electrónico">
+                    <input type="text" name="telefono" placeholder="Tu número de teléfono">
+                    <input type="date" name="fecha" placeholder="Fecha">
+                    <input type="time" name="hora" placeholder="Hora">
+                    <input type="submit" value="Reservar">
+                  </form>
+                  <br>
+        
+            </div>
+              <br>
+            <h3>nos encontramos en!</h3>
+            <div id="ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.51840993401!2d-58.310037825172714!3d-34.71732496350531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32d8a3088e2f9%3A0xff8292a5831940b1!2sMisiones%201324%2C%20Bernal%20Oeste%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1701648768895!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id="presentacion">Copyright &copy; 2023 Mr. Cod. buenos aires - avellaneda</p>
+        <div>
+            <img src="/public/img/instagram-1-svgrepo-com.svg" alt="" id="icon">
+            <img src="/public/img/facebook-svgrepo-com.svg" alt="" id="icon">
+            <img src="/public/img/tiktok-icon-black-1-logo-svgrepo-com.svg" alt="" id="icon">
+        </div>
+      
+    </footer>
+   
+</body>
+
+</html>
